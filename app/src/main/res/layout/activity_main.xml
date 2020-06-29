@@ -14,37 +14,38 @@
         <Button
             android:id="@+id/load_btn"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="불러오기"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:text="load" />
 
         <Button
             android:id="@+id/save_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="저장"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:text="save" />
 
         <Button
             android:id="@+id/delete_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="삭제"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:text="delete" />
 
     </LinearLayout>
 
     <EditText
         android:id="@+id/memo_edit"
         android:layout_width="391dp"
-        android:layout_height="643dp"
+        android:layout_height="639dp"
         android:layout_below="@+id/btn_layout"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
         android:layout_marginRight="0dp"
         android:layout_marginBottom="0dp"
         android:background="@android:drawable/edit_text"
