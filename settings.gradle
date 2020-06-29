@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "201702224원종필 메모장"
